@@ -7,6 +7,8 @@ int main() {
 	scanf("%d", &age);
 	age = (int) (age * 365.25); //Mind leap year.
 	printf("You are %d days old :)\n", age);
+	printf("Goodbye\n");
+	getc();
 
 	return 0;
 }
